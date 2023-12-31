@@ -35,7 +35,11 @@ lspconfig.pyright.setup({
 	},
 })
 
---lspconfig.clangd.setup({})
+-- autocompelete and suggestions works but the giving error doesn't
+--lspconfig.clangd.setup({}) 
+lspconfig.clangd.setup ({
+    cmd = {"clangd"},
+ })
 
 
 local signs = {

@@ -98,6 +98,19 @@ lazy.setup({
     { "L3MON4D3/LuaSnip" },             --snippet engine
     { "rafamadriz/friendly-snippets" }, -- a bunch of snippets
 
+    -- Git
+    {
+        "kdheepak/lazygit.nvim",
+        -- optional for floating window border decoration
+        dependencies = {
+            "nvim-lua/plenary.nvim",
+        },
+    },
+
+    {
+        "lewis6991/gitsigns.nvim"
+    },
+
     -- lazy.nvim
     {
         "folke/noice.nvim",

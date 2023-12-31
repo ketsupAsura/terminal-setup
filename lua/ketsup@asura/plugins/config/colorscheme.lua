@@ -39,7 +39,7 @@ require('onedark').setup {
 -- gruvbox-baby
 vim.g.gruvbox_baby_background_color = "dark"
 vim.g.gruvbox_baby_function_style = "italic"
-vim.g.gruvbox_baby_transparent_mode = 0;
+vim.g.gruvbox_baby_transparent_mode = 1;
 
 -- Load the colorscheme
 vim.cmd [[colorscheme gruvbox-baby]]

@@ -10,7 +10,7 @@ require("ketsup@asura.plugins.config.blankline")
 require("ketsup@asura.plugins.config.colorscheme")
 require("ketsup@asura.plugins.config.notify")
 require("ketsup@asura.plugins.config.noice")
-
+require("ketsup@asura.plugins.config.gitsigns")
 
 vim.g.tagbar_position = 'leftabove vertical'
 vim.g.tagbar_width = 30
