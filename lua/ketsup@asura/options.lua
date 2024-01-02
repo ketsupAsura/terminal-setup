@@ -26,10 +26,11 @@ local options = {
     numberwidth = 1,                         -- column width 
     wildmenu = true,
     background = 'dark',
+    clipboard = 'unnamedplus',               -- copy to the system's clipboard
 
     signcolumn = "yes",                      -- always show the sign column, otherwise it would shift the text each time
-    wrap = false,                             -- display lines as one long line
-    linebreak = false,                        -- companion to wrap, don't split words
+    wrap = false,                            -- display lines as one long line
+    linebreak = false,                       -- companion to wrap, don't split words
     scrolloff = 8,                           -- minimal number of screen lines to keep above and below the cursor
     sidescrolloff = 8,                       -- minimal number of screen columns either side of cursor if wrap is `false`
     whichwrap = "bs<>[]hl",                  -- which "horizontal" keys are allowed to travel to prev/next line
